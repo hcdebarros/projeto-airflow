@@ -73,6 +73,9 @@ Pass: airflow
 ### 4. Colocar o dataset
 Baixe do Kaggle e coloque em:
 ```
+link do dataset: https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents?select=US_Accidents_March23.csv
+```
+```
 data/raw/US_Accidents.csv
 ```
 
@@ -95,3 +98,4 @@ Airflow → `elt_us_accidents` → Run.
 
 ## Autor
 **Helder Barros**  
+
