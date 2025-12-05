@@ -1,0 +1,20 @@
+# Airflow volumes
+logs/
+config/
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/warehouse.duckdb
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Docker volumes
+*/__pycache__/
+*.log
+
+# Environment
+.env
+proj/
